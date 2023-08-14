@@ -1,0 +1,11 @@
+<div class="px-5 w-50">
+  <div class="mb-3 p-3" id="question-box">
+    <div id="question"><%= @question %></div>
+    <p class="person">-You</p>
+  </div>
+  <div class="mb-3 p-3" id="answer-box">
+    <div id="answer"><%= @answer %></div>
+    <p class="person">-Your coach</p>
+  </div>
+  <%= link_to "Ask a new question", ask_path, id: "link" %>
+</div>
